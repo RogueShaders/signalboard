@@ -1,0 +1,45 @@
+# ===== OS junk =====
+.DS_Store
+Thumbs.db
+
+# ===== Logs =====
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ===== Node deps =====
+node_modules/
+
+# ===== Build outputs =====
+dist/
+dist-ssr/
+out/
+release/
+build/
+
+# ===== Vite / Electron-Vite =====
+.vite/
+*.local
+
+# ===== Env files =====
+.env
+.env.*
+!.env.example
+
+# ===== Editor / IDE =====
+.vscode/
+.idea/
+*.swp
+
+# ===== Cache / temp =====
+.cache/
+tmp/
+
+# ===== Electron runtime data (optional safety) =====
+# If you ever store local userData in dev in-project, ignore it
+*.sqlite
+*.db
